@@ -13,9 +13,6 @@ export const processPayment = async (req, res) => {
     
     const { amount } = req.body;
 
-    
-
-    
     const options = {
       amount: amount, 
       currency: "INR",
