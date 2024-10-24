@@ -8,7 +8,6 @@ export const createAddress = async (req, res) => {
     const { name,street, city, state, postalCode, country, phone,totalCartPrice,cartId} = req.body;
     const { userId } = req.user;   // Assuming req.user contains userId
     console.log("userid",userId);
-console.log("backend===>",req.body);
 
 // When creating or updating the document
     try {
